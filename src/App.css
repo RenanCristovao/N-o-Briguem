@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+.bg {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: linear-gradient(115.95deg, #FF4343 -22.88%, #810000 113.17%);
+}
+
+.text1 {
+    position: absolute;
+    width: 414px;
+    height: 77px;
+    left: 419px;
+    top: 395px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    
+    color: white;
+   
+}
+
+.text2 {
+    position: absolute;
+    width: 602px;
+    height: 116px;
+    left: 419px;
+    top: 453px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: white;
+}
