@@ -1,20 +1,21 @@
-import { Box, } from '@chakra-ui/react'
+import { Box, Text, Flex, Spacer, Center, Square,} from '@chakra-ui/react'
 
 function App() {
   return (
     
-    <Box h='1024px' w='1444px' bgGradient='linear(to-br, #FF4343, #810000)'>
-      
-      <Box position='absolute' width='414px' height='77px' left='419px' top='395px' fontFamily='Inter' fontStyle='normal' fontWeight='500' fontSize='64px' lineHeight='77px' color='white'>
-        Bem vindo ao
-      </Box>
-      <Box position='absolute' w='602px' h='116px' left='419px' top='452px' fontFamily='Inter' fontStyle='normal' fontWeight='700'
-      fontSize='96px' lineHeight='116px' color='white' >
-        Não Briguem
-      </Box>
+    <Flex h='100vh' w='100vw' bgGradient='linear(to-br, #FF4343, #810000)' justify={'center'} align='center' >
+
+      <Flex color='white' direction='column'>
+        <Text fontSize='64px' as='b' >
+          Bem vindo ao
+        </Text>
+        <Text fontSize='96px' as='b' lineHeight='0.7'>
+          Não Briguem
+        </Text>
+      </Flex>
 
      
-    </Box>
+    </Flex>
    
   );
 }
