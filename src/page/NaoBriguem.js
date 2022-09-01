@@ -1,6 +1,6 @@
 import { Flex, Text} from '@chakra-ui/react'
 
-function Page2() {
+function NaoBriguem() {
   return (
     
     <Flex h='100vh' w='100vw' bgGradient='linear(to-br, #FF4343, #810000)' justify={'center'} align='center' >
@@ -15,4 +15,4 @@ function Page2() {
   );
 }
 
-export default Page2;
+export default NaoBriguem;

@@ -2,7 +2,7 @@ import {  Text, Flex, } from '@chakra-ui/react'
 
 
 
-function ErroPage() {
+function ErroPage () {
   return (
     
     
