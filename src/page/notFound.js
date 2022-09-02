@@ -2,7 +2,7 @@ import {  Text, Flex, } from '@chakra-ui/react'
 
 
 
-function ErroPage () {
+function NotFound () {
   return (
     
     
@@ -17,4 +17,4 @@ function ErroPage () {
   );
 }
 
-export default ErroPage;
+export default NotFound;

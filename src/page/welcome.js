@@ -2,7 +2,7 @@ import {  Text, Flex, Button } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
 
-function Page1() {
+function Welcome () {
   return (
     
    
@@ -16,7 +16,7 @@ function Page1() {
           Não Briguem
         </Text>
         <Link to='/NaoBriguem' >
-          <Button colorScheme='whiteAlpha' variant='outline' size='lg' w='200px' fontSize='24px' color>
+          <Button colorScheme='whiteAlpha' variant='outline' size='lg' w='200px' fontSize='24px' >
             Entrar
           </Button>
         </Link>
@@ -28,4 +28,4 @@ function Page1() {
   );
 }
 
-export default Page1;
+export default Welcome;
