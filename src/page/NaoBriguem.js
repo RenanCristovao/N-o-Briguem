@@ -14,9 +14,12 @@ function NaoBriguem() {
         <Text fontSize="64px" as="b">
           Vocês estão a
         </Text>
-
-        <CardTimer />
-
+        <Flex>
+          <CardTimer value="9" label="Dias" />
+          <CardTimer value="12" label="Horas" />
+          <CardTimer value="22" label="Minutos" />
+          <CardTimer value="10" label="Segundos" />
+        </Flex>
         <Text fontSize="64px" as="b" align="center">
           Sem Brigar
         </Text>
