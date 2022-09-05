@@ -11,7 +11,7 @@ function NaoBriguem() {
       align="center"
     >
       <Flex color="white" direction="column" align="center">
-        <Text fontSize="64px" as="b">
+        <Text fontSize={{ base: "32px", md: "64px" }} as="b">
           Vocês estão a
         </Text>
         <Flex>
@@ -20,7 +20,7 @@ function NaoBriguem() {
           <CardTimer value="22" label="Minutos" />
           <CardTimer value="10" label="Segundos" />
         </Flex>
-        <Text fontSize="64px" as="b" align="center">
+        <Text fontSize={{ base: "32px", md: "64px" }} as="b" align="center">
           Sem Brigar
         </Text>
         <Button color="#B22020">Zerar Contador</Button>
