@@ -1,14 +1,7 @@
-import Rota from './routes';
-
-
+import Rota from "./routes";
 
 function App() {
-  return (
-    
-    
-    <Rota />
-   
-  );
+  return <Rota />;
 }
 
 export default App;
