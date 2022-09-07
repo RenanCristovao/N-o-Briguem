@@ -13,19 +13,22 @@ function Welcome() {
       align="center"
     >
       <Flex color="white" direction="column">
-        <Text fontSize="64px" as="b" lineHeight="0.2">
+        <Text
+          fontSize={{ base: "16px", sm: "32px", md: "64px" }}
+          as="b"
+          lineHeight="0.2"
+        >
           Bem vindo ao
         </Text>
-        <Text fontSize="96px" as="b">
+        <Text fontSize={{ base: "24px", sm: "48px", md: "96px" }} as="b">
           Não Briguem
         </Text>
         <Link to="/NaoBriguem">
           <Button
-            colorScheme="whiteAlpha"
-            variant="solid"
+            colorScheme="gray"
+            variant="ghost"
             size="lg"
-            w="200px"
-            fontSize="24px"
+            fontSize={{ base: "12px", sm: "24px", md: "24px" }}
             rightIcon={<ArrowForwardIcon />}
           >
             Entrar
