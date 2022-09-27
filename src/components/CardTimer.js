@@ -1,6 +1,8 @@
-import { Box, Text, Flex } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 function CardTimer(props) {
+  const value = props.value;
+
   return (
     <Box
       fontSize={{ base: "8px", sm: "24px", md: "32px" }}
@@ -20,7 +22,7 @@ function CardTimer(props) {
           fontSize={{ base: "32px", sm: "36px", md: "64px" }}
           as="b"
         >
-          {props.value}
+          {value}
         </Text>
       </Box>
       {props.label}
